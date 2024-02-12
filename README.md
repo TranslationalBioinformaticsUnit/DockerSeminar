@@ -1,4 +1,7 @@
 # DockerSeminar
+This repository contains the presentation and examples showed in the "docker seminar" on 8th Febraury by Alberto Maillo.
+* [Docker example](#Example_1:_Docker_example)
+* [Singularity example](#Example_2:_Singularity_example_(in_Ibex))
 
 # Example 1: Docker example
 This guide provides instructions for building, running, uploading to Docker Hub, and downloading from Docker Hub for an R script (download folder example1).
@@ -48,3 +51,38 @@ docker rm -f <container_id>
 ```	
 docker image rm <image_id>
 ```	
+
+# Example 2: Singularity example (in Ibex)
+This guide provides instructions for using Singularity on Ibex, including building and running Singularity images. (download folder example2).
+
+## 1. Logging in to Ibex
+```
+ssh <username>@ilogin.ibex.kaust.edu.sa
+```
+
+## 2. Building the Singularity Image
+To build a Singularity image on Ibex, follow these steps:
+- Use the `singularity build` command with the `--fakeroot` and `--force` options to create the image:
+```
+singularity build --fakeroot --force <image>.sig <image>.def
+```
+
+## 3. Running the Singularity Image
+To run the Singularity image on Ibex, execute the following command:
+```
+singularity run <image>.sig
+```
+
+## 4. Creating and Running a Bash Script
+To create a bash script containing the Singularity run command and execute it using Slurm, see example *[script.sh](https://github.com/TranslationalBioinformaticsUnit/scbert-reusability/blob/main/predict_updated.py)*:
+```
+sbatch script.sh
+```
+
+
+
+
+
+
+
+
