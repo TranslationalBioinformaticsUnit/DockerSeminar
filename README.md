@@ -1,6 +1,6 @@
 # DockerSeminar
 
-# Example 1: Docker example 1
+# Example 1: Docker example
 This guide provides instructions for building, running, uploading to Docker Hub, and downloading from Docker Hub for an R script (download folder example1).
 
 ## 1. Building the Docker Image
