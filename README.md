@@ -1,7 +1,7 @@
-# DockerSeminar
+# Docker Seminar
 This repository contains the presentation and examples presented in the "Docker Seminar" on February 8th by Alberto Maillo.
 * [Docker example](#example-1-docker-example)
-* [Singularity example](#Example_2:_Singularity_example_(in_Ibex))
+* [Singularity example](#example-2-singularity-example-in-ibex)
 
 ## Example 1 Docker example
 This guide provides instructions for building, running, uploading to Docker Hub, and downloading from Docker Hub for an R script (download folder example1).
@@ -49,7 +49,7 @@ docker rm -f <container_id>
 docker image rm <image_id>
 ```	
 
-## Example 2: Singularity example (in Ibex)
+## Example 2 Singularity example in Ibex
 This guide provides instructions for using Singularity on Ibex, including building and running Singularity images. (download folder example2).
 
 ### 1. Logging in to Ibex
