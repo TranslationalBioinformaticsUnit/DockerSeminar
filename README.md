@@ -1,6 +1,6 @@
 # DockerSeminar
 This repository contains the presentation and examples presented in the "Docker Seminar" on February 8th by Alberto Maillo.
-* [Docker example](https://github.com/TranslationalBioinformaticsUnit/DockerSeminar/edit/main/README.md#example1dockerexample)
+* [Docker example](https://github.com/TranslationalBioinformaticsUnit/DockerSeminar/tree/main#example1dockerexample)
 * [Singularity example](#Example_2:_Singularity_example_(in_Ibex))
 
 ## Example1Dockerexample
