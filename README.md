@@ -1,9 +1,9 @@
 # DockerSeminar
 This repository contains the presentation and examples presented in the "Docker Seminar" on February 8th by Alberto Maillo.
-* [Docker example](#Example_1:_Docker_example)
+* [Docker example](https://github.com/TranslationalBioinformaticsUnit/DockerSeminar/edit/main/README.md#example1dockerexample)
 * [Singularity example](#Example_2:_Singularity_example_(in_Ibex))
 
-# Example 1: Docker example
+## Example1Dockerexample
 This guide provides instructions for building, running, uploading to Docker Hub, and downloading from Docker Hub for an R script (download folder example1).
 
 ## 1. Building the Docker Image
