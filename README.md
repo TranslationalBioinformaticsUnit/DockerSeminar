@@ -74,7 +74,7 @@ singularity run <image>.sig
 ```
 
 ## 4. Creating and Running a Bash Script
-To create a bash script containing the Singularity run command and execute it using Slurm, see example *[script.sh](https://github.com/TranslationalBioinformaticsUnit/scbert-reusability/blob/main/predict_updated.py)*:
+To create a bash script containing the Singularity run command and execute it using Slurm, see example *[script.sh](https://github.com/TranslationalBioinformaticsUnit/DockerSeminar/blob/main/example2/script.sh)*:
 ```
 sbatch script.sh
 ```
