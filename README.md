@@ -1,5 +1,5 @@
 # DockerSeminar
-This repository contains the presentation and examples showed in the "docker seminar" on 8th Febraury by Alberto Maillo.
+This repository contains the presentation and examples presented in the "Docker Seminar" on February 8th by Alberto Maillo.
 * [Docker example](#Example_1:_Docker_example)
 * [Singularity example](#Example_2:_Singularity_example_(in_Ibex))
 
