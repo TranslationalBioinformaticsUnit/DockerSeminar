@@ -1,0 +1,10 @@
+Bootstrap: docker
+From: ubuntu:20.04
+
+%post
+    chmod 1777 /tmp
+    apt-get update && apt-get install -y libsm6 libxext6 vim git wget curl
+    apt-get install -y libxrender-dev python
+
+%runscript
+    echo "Hello, world!"
